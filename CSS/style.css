@@ -1,9 +1,26 @@
+:root {
+    --bg-color: #E5E5E5;
+    --text-color: #709999;
+    --link-color: #005FFF;
+}
+
 body
 {
     font-family: 'Monserat', sans-serif;
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
+    background-color: var(--bg-color);
     padding: 40px;
     
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--link-color); 
+}
+a:hover
+{
+    text-decoration: underline;
 }
 
 .wrapper
@@ -93,6 +110,8 @@ body
 
 .project-item
 {
+   
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -102,13 +121,40 @@ body
 
 .project-item-link
 {
+
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    text-decoration-line: underline;
-    color: #005FFF; 
+    /* text-decoration-line: underline; */
+    /* color: #005FFF;  */
 }
+
+.project-item-blender
+{
+    position: relative;
+}
+.project-item-blender img
+{
+    top: 25px;
+    left: 0;
+    position: absolute;
+    width: 650px;
+    height: auto;
+    display: none;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 0 15px 3px grey;
+}
+
+.project-item-blender:hover img
+{
+    display: block;
+}
+
+
+
 
 /*Work experience*/
 
