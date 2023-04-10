@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: url(/font/RobotoMono-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "RobotoMono-Bold";
+    src: url(/font/RobotoMono-Bold.ttf) format("truetype");
+}
