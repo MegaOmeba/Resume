@@ -1,6 +1,7 @@
 @import "/CSS/font.css";
 
-:root {
+:root 
+{
     --bg-color: #E5E5E5;
     --text-color: #709999;
     --link-color: #005FFF;
